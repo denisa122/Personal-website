@@ -1,0 +1,162 @@
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  line-height: 2;
+}
+
+p {
+  width: 70%;
+  margin: 40px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #056676;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.big-heading {
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+  font-weight: 900;
+}
+
+.paragraph-heading {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+/* Title Section */
+#title {
+  background-color: #a3d2ca;
+}
+
+.title-text-and-button {
+  position: relative;
+  bottom: 250px;
+}
+
+/* Container */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 3rem;
+  position: relative;
+  left: 130px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #056676;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#title .container-fluid {
+  padding-bottom: 19%;
+}
+
+/* Title Images */
+.cloud-top {
+  position: relative;
+  bottom: 400px;
+  right: 160px;
+}
+
+.mountain {
+  position: relative;
+  bottom: 30px;
+}
+
+.cloud-bottom {
+  position: relative;
+  bottom: 220px;
+  left: 100px;
+}
+
+/* Title Button */
+.contact-me-button {
+  background-color: #056676;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 25px;
+}
+
+.contact-me-button:focus {
+  background-color: #056676;
+}
+
+/* About me Section */
+.about-me-img {
+  width: 15%;
+  padding-bottom: 3%;
+}
+
+#about-me .container-fluid{
+  padding-bottom: 3%;
+  padding-top: 5%;
+}
+
+/* My skills Section */
+#my-skills {
+  background-color: #CDF0EA;
+}
+
+.skill-title {
+  font-weight: 900;
+}
+
+.skill-pic {
+  width: 15%;
+  padding: 10% 0;
+  color: #056676;
+}
+
+.skill-text {
+  text-align: justify;
+}
+
+/* Call to action Section */
+.cta-title {
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+}
+
+/* Footer Section */
+#footer .container-fluid {
+  background-color: #a3d2ca;
+  color: #fff;
+}
+
+.footer-icon {
+  padding: 0 10px;
+}
+
+
+/* When the screen has a different width */
+@media (max-width: 1080px) {
+  .title-img {
+    position: static;
+  }
+
+  .cloud-top {
+    bottom: 680px;
+    left: 150px;
+  }
+
+  .mountain {
+    position: relative;
+    right: 23px;
+    bottom: 0;
+  }
+
+  .title-text-and-button {
+    position: static;
+  }
+}
