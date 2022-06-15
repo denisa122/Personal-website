@@ -136,8 +136,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-icon {
   padding: 0 10px;
+  color: #fff;
 }
 
+.footer-icon:hover {
+  color: #d5d7d8;
+}
 
 /* When the screen has a different width */
 @media (max-width: 1080px) {
